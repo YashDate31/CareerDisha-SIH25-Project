@@ -73,7 +73,7 @@ Visit `http://localhost:5173` to explore the app!
 
 ## 📸 Screenshots
 
-*(Add your screenshots here)*
+SOON SC WILL BE UPLOADED
 
 ---
 Made with ❤️ by Team Career Disha
