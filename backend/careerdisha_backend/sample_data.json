@@ -1,0 +1,91 @@
+[
+    {
+        "model": "resources.video",
+        "pk": 1,
+        "fields": {
+            "title": "Career Guidance: Choosing the Right Path",
+            "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "description": "Comprehensive guide on choosing the right career path based on your interests and skills.",
+            "category": "career",
+            "tags": "career, guidance, students",
+            "is_featured": true,
+            "created_at": "2024-01-15T10:00:00Z",
+            "updated_at": "2024-01-15T10:00:00Z"
+        }
+    },
+    {
+        "model": "resources.video",
+        "pk": 2,
+        "fields": {
+            "title": "Engineering vs Medical: Which to Choose?",
+            "youtube_url": "https://www.youtube.com/watch?v=example2",
+            "description": "Detailed comparison between engineering and medical career paths.",
+            "category": "career",
+            "tags": "engineering, medical, comparison",
+            "is_featured": false,
+            "created_at": "2024-01-16T11:00:00Z",
+            "updated_at": "2024-01-16T11:00:00Z"
+        }
+    },
+    {
+        "model": "resources.pdfresource",
+        "pk": 1,
+        "fields": {
+            "title": "Complete Guide to College Admissions",
+            "description": "Everything you need to know about college admissions process.",
+            "category": "education",
+            "tags": "college, admissions, guide",
+            "is_featured": true,
+            "created_at": "2024-01-15T12:00:00Z",
+            "updated_at": "2024-01-15T12:00:00Z"
+        }
+    },
+    {
+        "model": "resources.article",
+        "pk": 1,
+        "fields": {
+            "title": "Top 10 Careers in Technology",
+            "content": "Technology is rapidly evolving and creating new career opportunities. Here are the top 10 careers in technology that students should consider:\n\n1. Software Developer\n2. Data Scientist\n3. Cybersecurity Specialist\n4. AI/ML Engineer\n5. Cloud Architect\n6. DevOps Engineer\n7. UX/UI Designer\n8. Product Manager\n9. Blockchain Developer\n10. IoT Specialist",
+            "author": "Career Expert",
+            "category": "technology",
+            "tags": "technology, careers, programming",
+            "is_featured": true,
+            "created_at": "2024-01-15T13:00:00Z",
+            "updated_at": "2024-01-15T13:00:00Z"
+        }
+    },
+    {
+        "model": "resources.careerquiz",
+        "pk": 1,
+        "fields": {
+            "title": "Engineering Stream Selector",
+            "description": "Find out which engineering stream suits you best based on your interests and aptitude.",
+            "questions": {
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "Which subject do you enjoy the most?",
+                        "options": ["Mathematics", "Physics", "Chemistry", "Computer Science"],
+                        "type": "single"
+                    },
+                    {
+                        "id": 2,
+                        "question": "What type of problem-solving appeals to you?",
+                        "options": ["Logical algorithms", "Physical systems", "Chemical processes", "Design and creativity"],
+                        "type": "single"
+                    }
+                ]
+            },
+            "results_mapping": {
+                "Computer Science": "Based on your preferences, Computer Science Engineering would be ideal for you.",
+                "Mechanical": "Mechanical Engineering aligns well with your interests in physical systems.",
+                "Chemical": "Chemical Engineering matches your interest in chemical processes.",
+                "Civil": "Civil Engineering suits your design and creativity inclinations."
+            },
+            "category": "engineering",
+            "is_active": true,
+            "created_at": "2024-01-15T14:00:00Z",
+            "updated_at": "2024-01-15T14:00:00Z"
+        }
+    }
+]
